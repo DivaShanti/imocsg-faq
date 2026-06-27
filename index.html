@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IM Owners Collective SG — FAQ Hub</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:#f5f5f5;color:#1a1a1a;min-height:100vh}
+.page{max-width:760px;margin:0 auto;padding:1.5rem 1rem 3rem}
+.chev.open,.sc.open{transform:rotate(180deg)}
+button:hover{opacity:.85}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div style="background:#0b1f33;color:#fff;padding:1.5rem 1.5rem 1.25rem;border-radius:12px;margin-bottom:1.25rem">
+    <div style="font-size:17px;font-weight:600;margin-bottom:3px">🚗 IM Owners Collective SG — FAQ Hub</div>
+    <div style="font-size:11px;color:rgba(255,255,255,.55)">IM5 &amp; IM6 · Sources: EK (Eurokars EV) SG dealer terms · IM6 User Manual · IMOCSG Issue Log · Updated Jun 2026</div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin-bottom:1.25rem">
+    
+        <div style="background:#fff;border:0.5px solid #e0e0e0;border-radius:8px;padding:10px 12px">
+          <div style="font-size:10px;color:#888;margin-bottom:2px">New car warranty</div>
+          <div style="font-size:14px;font-weight:600;color:#0b1f33">5 years</div>
+          <div style="font-size:10px;color:#aaa;margin-top:2px">or 150,000 km · whichever first</div>
+        </div>
+        <div style="background:#fff;border:0.5px solid #e0e0e0;border-radius:8px;padding:10px 12px">
+          <div style="font-size:10px;color:#888;margin-bottom:2px">Battery warranty</div>
+          <div style="font-size:14px;font-weight:600;color:#0b1f33">10 years</div>
+          <div style="font-size:10px;color:#aaa;margin-top:2px">or 200,000 km · whichever first</div>
+        </div>
+        <div style="background:#fff;border:0.5px solid #e0e0e0;border-radius:8px;padding:10px 12px">
+          <div style="font-size:10px;color:#888;margin-bottom:2px">Free servicing</div>
+          <div style="font-size:14px;font-weight:600;color:#0b1f33">10 years</div>
+          <div style="font-size:10px;color:#aaa;margin-top:2px">or 200,000 km · whichever first</div>
+        </div>
+        <div style="background:#fff;border:0.5px solid #e0e0e0;border-radius:8px;padding:10px 12px">
+          <div style="font-size:10px;color:#888;margin-bottom:2px">Service intervals</div>
+          <div style="font-size:14px;font-weight:600;color:#0b1f33">1k / 5k / 10k</div>
+          <div style="font-size:10px;color:#aaa;margin-top:2px">then every 10,000 km or 6 months</div>
+        </div>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:1.25rem">
+    <button onclick="openSec('s0')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">General ownership &amp; warranty</button>
+        <button onclick="openSec('s1')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">Service booking &amp; intervals</button>
+        <button onclick="openSec('s_charge')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">Charging — apps, networks &amp; how-to</button>
+        <button onclick="openSec('s_jbkl')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">Road trips — JB, KL &amp; Penang</button>
+        <button onclick="openSec('s2')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">Software, OTA updates &amp; version control</button>
+        <button onclick="openSec('s3')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">Digital cockpit, ICB &amp; display</button>
+        <button onclick="openSec('s4')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">Infotainment, connectivity &amp; UX</button>
+        <button onclick="openSec('s5')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">Safety, ADAS &amp; cameras</button>
+        <button onclick="openSec('s_drive')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">Drive modes, regen &amp; vehicle features</button>
+        <button onclick="openSec('s_keys')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">Keys, access &amp; security</button>
+        <button onclick="openSec('s6')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">One Touch Park — parking guide &amp; checklist</button>
+        <button onclick="openSec('s_maint')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">Long-term care, storage &amp; emergencies</button>
+        <button onclick="openSec('s7')" style="font-size:11px;padding:4px 11px;border:1px solid #d0d0d0;border-radius:14px;background:#fff;color:#555;cursor:pointer;margin-bottom:4px">Owner wishlist &amp; feature requests</button>
+  </div>
+
+  
+        <div id="s0" style="margin-bottom:10px">
+          <div id="hdr-s0" onclick="togSec('s0')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#f2f2f2;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#888;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">General ownership &amp; warranty</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">5 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s0" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What are the warranty coverages that came with my IM purchase in SG?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Your IM purchase in Singapore from EK (Eurokars EV) includes three distinct coverages:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">New Car Warranty: 5 years or 150,000 km, whichever comes first.</li><li style="margin-bottom:2px">Battery Warranty: 10 years or 200,000 km, whichever comes first.</li><li style="margin-bottom:2px">Free Servicing: 10 years or 200,000 km, whichever comes first — covers all scheduled maintenance at the EK service centre.</li></ul><br><div>A formal written warranty policy document has been requested by owners (IM-022) and is pending publication by EK. Always verify specifics directly with EK.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What is NOT covered by warranty — what counts as wear and tear?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>The following are consumables and wear items not covered by the new car warranty per the IM manual:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Brake pads: minimum 2 mm usable thickness before replacement.</li><li style="margin-bottom:2px">Brake discs: front 28–30 mm, rear 23–25 mm minimum.</li><li style="margin-bottom:2px">Wiper blades: replace when rubber shows hardness, cracking, or streaking.</li><li style="margin-bottom:2px">Cabin A/C filter: replace at each service interval.</li><li style="margin-bottom:2px">Tyres: replace at the 1.6 mm tread wear indicator. Cold pressures — front: 250 kPa / 2.5 bar, rear: 280 kPa / 2.8 bar.</li><li style="margin-bottom:2px">Smart key battery: CR2032 coin cell.</li><li style="margin-bottom:2px">Brake fluid: DOT 4 — replace on schedule.</li><li style="margin-bottom:2px">Windscreen washer fluid, coolant top-up, drive unit fluid — all consumables.</li></ul><br><div>Any damage from misuse, unauthorised modification, or accidents is excluded from all warranty claims.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Can I purchase an extended warranty beyond the standard coverage?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span><span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#F4C0D1;color:#72243E">Wishlist</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Awaiting EK confirmation (IM-021 / W-005). This has been raised by SG owners who drive high mileage and may reach 200,000 km before 10 years. EK has been asked to confirm whether an extended warranty option is available. Contact EK directly for the current position.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What do I need to bring to every EK service visit?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Based on owner experience (IM-010):</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Your physical smart key — EK has confirmed in at least one case that a software restart required the physical key on-site.</li><li style="margin-bottom:2px">Photos, videos, or app screenshots documenting any issue you are reporting.</li></ul><br><div>Take note of current software version — check via Settings > About Vehicle before you go.</div><br>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Where are my VIN and vehicle identification numbers?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Your VIN appears at four locations per the IM6 manual:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Stamped on the instrument panel — visible through the bottom-right corner of the windscreen from outside.</li><li style="margin-bottom:2px">On the vehicle identification plate on the lower B-pillar.</li><li style="margin-bottom:2px">On the cross beam under the front right seat.</li><li style="margin-bottom:2px">On the sheet metal under the tailgate.</li></ul>
+            </div>
+          </div></div>
+        </div>
+        <div id="s1" style="margin-bottom:10px">
+          <div id="hdr-s1" onclick="togSec('s1')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#E6F1FB;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#2563eb;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">Service booking &amp; intervals</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">5 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s1" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">How do I book a service appointment with EK (Eurokars EV)?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>EK (Eurokars EV) is the authorised dealer and after-sales support provider for IM Motors in Singapore.</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Online booking: https://servicebooking.immotors.com.sg</li><li style="margin-bottom:2px">Service centre: Eurokars Aftersales Centre, 27A Tanjong Penjuru, Singapore 609042 (effective Aug 11 2026)</li><li style="margin-bottom:2px">Operating hours: Mon–Fri 8:00 am–6:00 pm · Sat 8:00 am–12:30 pm · Sun & PH: Closed</li></ul><br><div>IMPORTANT: Walk-in customers without an appointment may be rescheduled or may not have their vehicle returned the same day. Always book in advance.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What are the scheduled service intervals for my IM in SG?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>The EK SG service schedule (applies to all IM5 and IM6 variants):</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">First service: 1,000 km</li><li style="margin-bottom:2px">Second service: 5,000 km</li><li style="margin-bottom:2px">Third service: 10,000 km</li><li style="margin-bottom:2px">Subsequent services: every 10,000 km or 6 months, whichever comes first</li></ul><br><div>All scheduled services within the 10-year / 200,000 km free servicing entitlement are covered at no charge. Always book in advance via the online portal or call EK.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Is EV charging available while my car is being serviced at EK?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>No. EV charging services are not available during servicing at EK. Arrive with sufficient charge for the return journey.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Can I get my IM serviced at a workshop other than EK?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Routine consumable replacements (tyres, wiper blades, washer fluid) can be done at any reputable workshop. However,</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Software updates, OTA issues, ADAS calibration, battery diagnostics, and warranty repairs must go through EK as the authorised repairer.</li><li style="margin-bottom:2px">Using non-authorised workshops for warranty-covered work may void that specific claim.</li><li style="margin-bottom:2px">For insurance repairs, confirm with your insurer whether their panel workshop has EV-certified technicians familiar with IM vehicles.</li></ul><br><div>The IM manual directs owners to Authorised Repairers for all non-consumable service, HV battery work, and SRS/airbag system work.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">EK couldn't reproduce my issue during the service visit. What should I do?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#FAC775;color:#633806">High priority</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>A recurring process frustration for multiple SG owners (IM-013, IM-014, IM-015):</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Document before you go: Video the fault in the exact conditions; note date, time, speed, and your software version.</li><li style="margin-bottom:2px">Log it in the IMOCSG repository: a pattern across multiple owners carries more weight with EK than a single report.</li><li style="margin-bottom:2px">Request written escalation if unresolved after two visits — ask EK to escalate to the IM/SAIC regional technical team.</li><li style="margin-bottom:2px">For safety-related issues: state the safety impact explicitly in writing when escalating.</li></ul>
+            </div>
+          </div></div>
+        </div>
+        <div id="s_charge" style="margin-bottom:10px">
+          <div id="hdr-s_charge" onclick="togSec('s_charge')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#E1F5EE;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#0d9488;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">Charging — apps, networks &amp; how-to</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">5 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s_charge" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What connector type does my IM use and which chargers are compatible?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Your IM uses the CCS2 (Combined Charging System Type 2) connector for DC fast charging, and Type 2 for AC slow charging. CCS2 is the national standard in Singapore — compatible with the vast majority of public chargers.</div><br><div>IM charging specs per the manual:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">DC fast charging (800V variants*): up to ~396 kW max — 20% to 80% in approximately 20 min on an 800V DC pile, 30 min on a 400V DC pile.</li><li style="margin-bottom:2px">DC fast charging (400V/75kWh LFP variant): up to ~153 kW.</li><li style="margin-bottom:2px">AC slow charging (11 kW): 100 kWh battery full charge approximately 11.5 hrs; 75 kWh approximately 8.5 hrs.</li><li style="margin-bottom:2px">AC slow charging (7 kW): 100 kWh approximately 16.5 hrs; 75 kWh approximately 12.5 hrs.</li></ul><br><div>* 800V fast charging only available on the 100 kWh Sport RWD and Performance AWD variants.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Which apps should I download for EV charging in Singapore?</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>The essential apps for SG IM owners:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">SP App (SP Mobility) — Singapore's largest fast-charging network with 3,300+ charging points at 800+ locations (HDBs, malls, offices). Scan QR to start, pay by card in-app. Also earns ChargeUP rewards. MOST IMPORTANT to have.</li><li style="margin-bottom:2px">Shell Recharge — available at Shell service stations and malls like Suntec City. DC ~$0.83/kWh, AC ~$0.74/kWh. Download Shell Recharge Asia app.</li><li style="margin-bottom:2px">Charge+ — growing network at commercial properties. Check charge.com.sg app.</li><li style="margin-bottom:2px">CDG Engie — smaller network; useful as a backup.</li><li style="margin-bottom:2px">PlugShare — community-sourced map showing all networks including real-time reviews of working chargers. Excellent for checking if a specific charger is functioning before you drive there.</li></ul><br><div>Typical public DC fast charging rates: $0.75–$0.83/kWh. AC rates: $0.58–$0.74/kWh. Idle fees apply at most networks after a 15–30 min grace period once charging ends ($0.50/min up to $40 cap) — unplug promptly.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">How do I use a public charger for the first time? Step-by-step.</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Step-by-step for first-time use (using SP App as example — process is similar for other apps):</div><br><div style="margin-bottom:2px">1. Download the SP App and register an account. Link a credit/debit card.</div><div style="margin-bottom:2px">2. In the app, tap Explore > EV Charging to see the map of nearby chargers. Filter by DC or AC as needed.</div><div style="margin-bottom:2px">3. Drive to the charger. Check the connector type on the pillar matches CCS2 (for DC) or Type 2 (for AC).</div><div style="margin-bottom:2px">4. Open your car's charging port (press the upper right area of the charging port door (it will automatically open), OR use the 3D vehicle model on the central screen [Manual-sourced]). Insert the connector firmly until it clicks and locks.</div><div style="margin-bottom:2px">5. In the SP App, tap 'Scan QR' and scan the QR code on the charger pillar, or enter the serial number. Confirm the session starts in the app.</div><div style="margin-bottom:2px">6. The car will show charging status on the centre screen and instrument cluster.</div><div style="margin-bottom:2px">7. To stop: tap 'Stop' in the app and wait for the connector lock to release before unplugging. Move your car promptly to avoid idle fees.</div><br><div>Tip: Before driving to a charger, use PlugShare to check recent user reviews — it quickly reveals if a specific charger is out of order.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Does my IM support one-pedal driving?</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>No — one-pedal driving (where regen braking is strong enough to bring the car to a complete stop without touching the brake pedal) is NOT available on the IM5 or IM6 as currently configured. This is a commonly raised complaint on global IM owner forums.</div><br><div>What IS available per the IM manual:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Three regen levels via Settings > Controls > ERS or Settings > Driving > ERS:</li><li style="margin-bottom:2px">OFF: energy recovery disabled, coasting freely.</li><li style="margin-bottom:2px">LOW: light regeneration, longer coast distance.</li><li style="margin-bottom:2px">STANDARD: stronger regeneration, shorter coast distance.</li></ul><br><div>STANDARD is the closest to one-pedal feel but does not bring the car to a complete halt on its own. A dedicated one-pedal mode has been raised as a feature request to IM Motors globally.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What is the best charging routine to maximise battery health long-term?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Based on the IM6 manual:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Equalisation charge: the manual recommends carrying out a slow AC charge to full (100%) every month to extend the service life of the high-voltage battery pack. This balances every battery cell so as to ensure overall battery performance. [Manual-sourced]</li><li style="margin-bottom:2px">Long-term parking: charge to at least 50% SOC before leaving. Charge at least once every 3 months — keep above 50% on the instrument after each charge. [Manual-sourced]</li><li style="margin-bottom:2px">NEVER leave the car parked for more than 7 days with a critically low battery (no valid driving range shown on the instrument) — this can permanently damage the battery cells. [Manual-sourced]</li><li style="margin-bottom:2px">The manual recommends starting the vehicle and running it for at least half an hour every week to help extend the 12V battery service life. [Manual-sourced]</li><li style="margin-bottom:2px">If the car has been parked for a long time before first use, perform a complete equalisation charge (slow AC charge to 100%) before returning to regular driving. [Manual-sourced]</li></ul><br><div>Note: Keeping daily SOC between 20–80% is widely recommended general EV best practice but is NOT stated in the IM6 manual — apply at your own discretion.</div>
+            </div>
+          </div></div>
+        </div>
+        <div id="s_jbkl" style="margin-bottom:10px">
+          <div id="hdr-s_jbkl" onclick="togSec('s_jbkl')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#EAF3DE;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#16a34a;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">Road trips — JB, KL &amp; Penang</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">5 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s_jbkl" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Can I drive my IM to JB / Malaysia? What do I need to sort out first?</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Yes — driving to Malaysia is straightforward with some preparation:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">VEP (Vehicle Entry Permit): mandatory for all Singapore-registered vehicles entering Malaysia. Register at vep.jpj.gov.my if not done. The RFID tag must be fitted and active.</li><li style="margin-bottom:2px">Motor insurance: most SG comprehensive policies include coverage for West Malaysia and Peninsular Malaysia ; check your policy wording. Confirm it covers EV-specific incidents.</li><li style="margin-bottom:2px">Charging port: your IM uses CCS2 — this is the standard for all Malaysian public DC fast chargers. No adapter needed.</li><li style="margin-bottom:2px">Malaysia charging app: download JomCharge (by EV Connection) before you cross the border. It is Malaysia's largest CCS2 DC network with 1,200+ charging points.</li><li style="margin-bottom:2px">SP App cross-border roaming: since Oct 2025, the SP App connects to selected JomCharge chargers in Malaysia; you can locate, start, and pay for JomCharge sessions via the SP App. Bills in SGD with a 5% platform fee. ChargeUP rewards do not apply in Malaysia.</li><li style="margin-bottom:2px">ADAS note: speed limit display may show incorrect limits in Malaysia; drive to posted road signs at all times.</li><li style="margin-bottom:2px">IM app connectivity: should work in Malaysia via roaming eSIM but some connected services may be limited outside SG.</li></ul>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">How do I plan my charging stops for a SG to KL drive?</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>The Singapore to KL drive is approximately 350 km via the North-South Expressway (NSE / Plus Highway). With the 75 kWh (Cat A) variant expect real-world range of approximately 280–340 km depending on speed and A/C load. For the 100 kWh variants expect approximately 380–450 km.</div><br><div>Recommended charge stop strategy (75 kWh variant):</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Charge to at least 80–90% before leaving SG.</li><li style="margin-bottom:2px">First stop: Ayer Keroh / Melaka R&R (approximately 210 km). DC chargers available via JomCharge. Top up to 80%.</li><li style="margin-bottom:2px">Arrive KL with comfortable buffer (20%+).</li></ul><br><div>For 100 kWh variants: SG to KL is achievable in one charge if you depart at 80%+ — but one top-up stop is recommended for peace of mind.</div><br><div>Key charging locations along the NSE (all CCS2 available via JomCharge):</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Yong Peng R&R (~145 km from SG)</li><li style="margin-bottom:2px">Ayer Keroh R&R / Melaka (~210 km)</li><li style="margin-bottom:2px">Nilai / Seremban area (~310 km)</li><li style="margin-bottom:2px">KL city (abundant: Pavilion KL, Mid Valley, KLCC vicinity, IOI City Mall Putrajaya)</li></ul><br><div>Planning tip: Use JomCharge app or PlugShare to check live charger availability before departing each stop. Charger downtime does occur; always have a backup option mapped.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">How do I plan charging for SG to Penang?</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>SG to Penang is approximately 680 km — a full-day drive requiring at least 2–3 charge stops regardless of variant.</div><br><div>The NSE North-South Expressway is well-covered with DC fast chargers every 50–80 km via JomCharge, Gentari (Petronas), and ChargEV at major rest stops.</div><br><div>Suggested charge stops (75 kWh variant, charge to ~80% each stop):</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Stop 1: Yong Peng R&R (~145 km from SG)</li><li style="margin-bottom:2px">Stop 2: Tapah R&R (~320 km) — important buffer stop. Pro tip: even if you have 40–50% here, top up — weekend queues at Ipoh town chargers can be 60+ minutes.</li><li style="margin-bottom:2px">Stop 3: Ipoh area (~380 km) or continue to Gurun/Sungai Petani (~530 km)</li><li style="margin-bottom:2px">Arrive Georgetown / Penang (~680 km) — abundant charging at Gurney Plaza, Queensbay Mall, AEON Bayan Baru.</li></ul><br><div>For 100 kWh variants: 2 charge stops are typically sufficient (Yong Peng or Ayer Keroh, then Tapah or Ipoh).</div><br><div>Penang is one of Malaysia's most EV-ready destinations with multiple CCS2 DC chargers across the island. Plan a slow overnight charge at your hotel if staying multiple nights.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What charging networks should I download before a Malaysia road trip?</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Download these before you leave Singapore:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">JomCharge:  Malaysia's largest CCS2 DC network (1,200+ points, well-covered on the NSE). Register a Malaysian payment method or use via SP App roaming.</li><li style="margin-bottom:2px">Gentari: Petronas EV charging network, growing aggressively on NSE rest stops. DC pricing from RM1.60–1.80/kWh depending on location.</li><li style="margin-bottom:2px">PlugShare: community charger map with real-time status reviews. Essential for identifying broken chargers before you drive to them.</li><li style="margin-bottom:2px">ChargEV: older but still active network at some NSE rest stops.</li><li style="margin-bottom:2px">Tesla app:  Tesla Superchargers opened to non-Tesla CCS2 vehicles in March 2026 at four KL sites (i-City Shah Alam, Pavilion KL, IOI City Mall Putrajaya, Gamuda Cove) at RM1.80/kWh.</li></ul><br><div>Note: Malaysian charger pricing (as of Jun 2026) : DC fast charging approximately RM1.20–1.80/kWh depending on network and site. Off-peak (midnight–7am) discounts apply on some networks.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What real-world range should I plan for on Malaysian highways?</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Malaysian highway speeds are typically 90–110 km/h (legal limit 110 km/h on NSE). At these speeds, with A/C running in tropical heat, expect:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">75 kWh (Cat A) variant: approximately 280–320 km real-world range from 100% to near empty. Plan stops every 200–250 km to maintain a 20%+ buffer.</li><li style="margin-bottom:2px">100 kWh Sport RWD variant: approximately 380–440 km real-world.</li><li style="margin-bottom:2px">100 kWh Performance AWD variant: approximately 320–380 km real-world (AWD system draws more power).</li></ul><br><div>Key factors that reduce range on Malaysian roads:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Sustained highway speed (100–110 km/h) - more wind resistance than city driving.</li><li style="margin-bottom:2px">Constant A/C load in 28–35°C ambient temperature - can reduce range 15–20%.</li><li style="margin-bottom:2px">Full passenger load and luggage.</li><li style="margin-bottom:2px">Hill sections (Titiwangsa Range between Rawang and Ipoh) - climb reduces range, descent partially recovers.</li></ul><br><div>Safety rule: never let the battery drop below 20% on the highway. Charge stations can be busy, broken, or require a detour off the expressway.</div>
+            </div>
+          </div></div>
+        </div>
+        <div id="s2" style="margin-bottom:10px">
+          <div id="hdr-s2" onclick="togSec('s2')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#E1F5EE;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#0d9488;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">Software, OTA updates &amp; version control</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">4 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s2" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">How do OTA updates work and how do I check my software version?</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>OTA (over-the-air) updates are delivered wirelessly and can cover infotainment, ADAS calibration, and vehicle software. You will receive a notification on the centre screen and in the IM app.</div><br><div>Best practice:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Schedule updates overnight when parked with sufficient charge.</li><li style="margin-bottom:2px">Do not power off the vehicle during an active update.</li><li style="margin-bottom:2px">Check your version at any time: Settings > About Vehicle on the centre screen. Note the full version string and share it with EK when reporting any issue.</li></ul><br><div>SG-market vehicles may receive OTA updates on a different cadence from China-market vehicles (IM-009). If expecting a specific fix, ask EK to confirm the SG rollout status.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">My OTA update failed or the screen is stuck. What should I do?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#FAC775;color:#633806">High priority</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Wait at least 30–45 minutes before assuming failure — updates can take longer than expected.</li><li style="margin-bottom:2px">Ensure charge is above 30% before starting any update.</li><li style="margin-bottom:2px">If the screen is unresponsive after the update, try a soft ICB reboot: press and hold the roller(s) on the steering wheel at the SAME time for 10 seconds</li><li style="margin-bottom:2px">If the vehicle does not boot normally, do NOT attempt to drive; contact EK immediately.</li><li style="margin-bottom:2px">Photograph or video the stuck screen and note the software version you were updating from.</li><li style="margin-bottom:2px">Always bring your physical smart key to any EK service visit</li></ul>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Why do different SG owners seem to be on different software versions?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Awaiting EK confirmation (IM-009). Multiple SG owners have noted version inconsistencies across the fleet, with different symptoms and repair outcomes on different versions. EK has been asked to provide a software version matrix and rollout policy for the SG market. In the meantime, always record your version before and after any service visit.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Can I roll back to a previous software version if an update breaks something?</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>User-initiated rollback is not available. If an OTA introduces a regression, document the exact change (version before and after, what broke) and report to EK. EK can escalate to SAIC for a targeted fix in a future OTA, or arrange a workshop reflash where technically feasible.</div>
+            </div>
+          </div></div>
+        </div>
+        <div id="s3" style="margin-bottom:10px">
+          <div id="hdr-s3" onclick="togSec('s3')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#FAEEDA;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#d97706;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">Digital cockpit, ICB &amp; display</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">4 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s3" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">All my screens went blank while driving / cockpit rebooted. What do I do?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#F7C1C1;color:#A32D2D">Critical</span><span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>CRITICAL — safety-relevant (IM-003). Multiple SG owners have reported this across IM5 and IM6.</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Note the speed, conditions, and whether screens recovered on their own.</li><li style="margin-bottom:2px">Attempt a ssoft ICB reboot: press and hold the roller(s) on the steering wheel at the SAME time for 10 seconds</li><li style="margin-bottom:2px">Report to EK immediately with video evidence and your software version.</li></ul><br><div>Awaiting EK confirmation on root cause. ICB reset by EK has resolved the issue in some cases (IM-011) but it is not confirmed whether this is a permanent fix or temporary workaround.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">The front camera image turned purple / corrupted. Is this known?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#FAC775;color:#633806">High priority</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Yes — front camera corruption (purple or distorted image) was reported by SG owners in June 2026. Log with photos or video and report to EK. If it affects parking assist or surround-view, flag the safety impact explicitly.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">The A-pillar / side camera view looks lower resolution than the rear camera.<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Awaiting EK confirmation (IM-016). Lower resolution on the A-pillar feed may be due to cropping or zoom processing rather than a hardware fault. EK has been asked to confirm whether the quality difference is within design specification. A black camera quadrant (not just lower resolution) may indicate a hardware fault. Report to EK.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">The UI appeared in Chinese after delivery or an OTA. How do I fix it?</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Chinese-language UI or voice accent on SG-market vehicles is a localisation issue (IM-005). Take screenshots and report to EK with your software version. In the interim, go to Settings > Language and manually set English if accessible.</div>
+            </div>
+          </div></div>
+        </div>
+        <div id="s4" style="margin-bottom:10px">
+          <div id="hdr-s4" onclick="togSec('s4')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#FAECE7;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#dc5a30;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">Infotainment, connectivity &amp; UX</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">7 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s4" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Does my IM support Apple CarPlay and Android Auto?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Yes, both are supported.</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Apple CarPlay: Settings > Connections > Bluetooth > tap the Apple CarPlay icon.</li><li style="margin-bottom:2px">Android Auto: Settings > Connections > Bluetooth > tap Android Auto.</li></ul><br><div>Your phone must support CarPlay / Android Auto — check apple.com/ios/carplay and android.com/auto for compatible models. If CarPlay shows distortion (IM-004), log your phone model, cable or wireless mode, and software version and report to EK.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">The handsfree mic is too soft — the other party can't hear me clearly.<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#FAC775;color:#633806">High priority</span><span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>HIGH PRIORITY (IM-007) — consistently reported by multiple SG owners. Prior EK fix reportedly ineffective in some cases.</div><br><div>When logging with EK include: your phone model, call type, before/after software version, and whether a prior EK fix was attempted. EK has been asked to confirm whether this is a software or hardware issue.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">GPS / location detection seems inaccurate or delayed.<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Awaiting EK confirmation (IM-008). Log specific conditions (area, speed, time of day) and take screenshots from the maps app. Report to EK with your current software version.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">The auto wiper shudders or behaves unexpectedly in Rainy Mode.<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Multiple owners have reported wiper shuddering and confusing Rainy Mode behaviour.</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Ensure the windscreen is clean; a dirty screen can cause rain sensor misjudgement. Per the manual, the rain sensor is in the interior rearview mirror base.</li><li style="margin-bottom:2px">If shuddering persists on a clean, wet screen, inspect wiper blade rubber for hardness or cracking.</li><li style="margin-bottom:2px">Per the manual: if wipers are used for quick wiping, some intelligent driving functions (ACC/Pilot) cannot be activated at that time.</li><li style="margin-bottom:2px">If this appears to be a software/mode logic issue, log and report to EK.</li></ul>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">There is a rattling noise from the cabin / doors. How should I report this?</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>When logging with EK (IM-006):</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Note the location of the noise — driver door, passenger door, dashboard, etc.</li><li style="margin-bottom:2px">Note road conditions and speed at which it occurs.</li><li style="margin-bottom:2px">Record a video or audio clip with the radio off.</li></ul><br>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Can I use Pet Mode to leave the A/C running while I leave the car?</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Pet Mode IS described in the IM6 manual as a feature. Per the manual: when Pet Mode is enabled (vehicle in P gear, not in automatic parking condition, driving range above 70 km or vehicle is being charged), the centre console is locked, windows are closed, the air conditioning is maintained, and the screens enter Pet Mode. If the driving range drops too low, Pet Mode automatically exits and the window opens 5%. [Manual-sourced]</div><br><div>However, SG owners report that Pet Mode does not appear to be enabled or accessible on SG-market IM5 and IM6 vehicles. This is a common complaint on global IM owner forums. It is unclear whether it is software-locked for the SG market or requires a specific software version.</div><br><div>Status: Awaiting EK confirmation on whether Pet Mode is available on SG-market vehicles and, if not, whether it can be enabled via OTA.</div><br><div>Workaround (if Pet Mode is unavailable): The IM app allows remote climate control activation. You can pre-cool the cabin remotely before getting in, but this does not provide a persistent in-car A/C mode with the car unoccupied and locked.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">The wireless phone charger doesn't seem to be charging my phone. Why?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Per the IM6 manual:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Wireless charging only works with WPC Qi-certified phones. Check if your phone model supports Qi.</li><li style="margin-bottom:2px">Only one phone can charge at a time.</li><li style="margin-bottom:2px">Centre the phone on the charging pad, aligning the phone's centre with the charger's centre mark.</li><li style="margin-bottom:2px">Phone cases can interfere; try removing the case.</li><li style="margin-bottom:2px">On bumpy roads, the phone may shift off the charging area and stop charging; reposition it.</li><li style="margin-bottom:2px">If the pad feels warm, let it cool before retrying.</li><li style="margin-bottom:2px">If it still fails after the above, contact EK - it may be a hardware issue.</li></ul>
+            </div>
+          </div></div>
+        </div>
+        <div id="s5" style="margin-bottom:10px">
+          <div id="hdr-s5" onclick="togSec('s5')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#EEEDFE;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#7c3aed;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">Safety, ADAS &amp; cameras</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">4 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s5" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">I keep seeing 'Lane Departure Warning unavailable'. Is this a fault?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#FAC775;color:#633806">High priority</span><span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>HIGH PRIORITY (IM-017). Per the IM manual, LDW has the following built-in limitations:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Only activates above 60 km/h. Exits when speed drops below 55 km/h.</li><li style="margin-bottom:2px">Requires both lane lines to be clearly visible and detectable by the front camera.</li><li style="margin-bottom:2px">Limited performance at night, in heavy rain, with faded lane markings, and on tight curves.</li></ul><br><div>If 'LDW unavailable' appears repeatedly on clear, well-marked highways:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Try toggling LDW off/on via ADAS settings.</li><li style="margin-bottom:2px">Check the front camera and windscreen are clean.</li><li style="margin-bottom:2px">If it persists, book a service visit with EK for ADAS calibration check and diagnostic scan. Note your software version.</li></ul><br><div>Awaiting EK confirmation on whether this is a known software or sensor calibration issue for the SG fleet.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">How does ACC / Pilot mode work and why does it feel unsuitable in SG driving?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>OPEN ISSUE pending EK response (IM-001, IM-002). Multiple SG owners find ACC/Pilot behaviour unsuitable for local stop-start and expressway driving.</div><br><div>Per the IM manual:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Full-speed ACC switches automatically between constant-speed and car-following modes.</li><li style="margin-bottom:2px">Speed range: 30–120 km/h. The minimum TARGET speed is 30 km/h — if your actual speed is below 30 km/h when ACC activates, the system sets the target at 30 km/h. ACC can activate at speeds above 0 km/h (when a vehicle is ahead) or above 10 km/h (when no vehicle is ahead). [Manual-sourced]</li><li style="margin-bottom:2px">The manual explicitly states ACC is SUITABLE FOR EXPRESSWAYS AND ROADS IN GOOD CONDITION — NOT for urban roads or mountain roads.</li><li style="margin-bottom:2px">On curves, the system may reduce speed actively. Phantom braking when detecting vehicles in adjacent lanes is a documented limitation.</li><li style="margin-bottom:2px">Note: if wipers are used in quick-wipe mode, ACC/Pilot cannot be activated.</li></ul>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What are the real-world limitations of ADAS on Singapore roads?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Per the IM manual and SG owner experience:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">LDW/LDA: Limited at night, heavy rain, faded or missing markings, and tight curves; all common on SG roads.</li><li style="margin-bottom:2px">ACC: Explicitly not designed for urban roads. Phantom braking in gantry zones or when vehicles are in adjacent lanes is documented.</li><li style="margin-bottom:2px">Motorcycles: Close-filtering motorcyclists may trigger blind spot alerts; expected system behaviour, not a fault.</li></ul><br><div>All ADAS functions are assistance systems only. The driver remains fully responsible at all times and this is explicitly stated in the manual.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What should I do after a minor collision, even if the car looks fine externally?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Per the IM manual: contact the Authorised Repairer (EK) for inspection after any accident, even if the vehicle appears undamaged externally.</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">EV battery housings and ADAS sensors can be affected by impacts not visible externally.</li><li style="margin-bottom:2px">Do not charge the vehicle if you suspect any underbody impact until inspected by EK.</li><li style="margin-bottom:2px">Screenshot any impact event logged in the in vehicle camera app for your insurer records.</li><li style="margin-bottom:2px">If airbags deployed, SRS components must only be replaced by an Authorised Repairer per the manual.</li></ul>
+            </div>
+          </div></div>
+        </div>
+        <div id="s_drive" style="margin-bottom:10px">
+          <div id="hdr-s_drive" onclick="togSec('s_drive')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#FAEEDA;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#d97706;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">Drive modes, regen &amp; vehicle features</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">5 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s_drive" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What driving modes are available and what does each do?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Per the IM6 manual — access via Settings > Driving on the centre screen:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Comfort Mode: combines economy, power and comfort. Meets the daily driving needs of users. Suitable for most SG daily driving.</li><li style="margin-bottom:2px">Energy-saving Mode (ECO): optimises energy consumption for maximum range. Includes a Super Energy Saving option which extends range further by limiting intelligent drive, reducing A/C power, and turning off electrical appliances such as ambient lights, multimedia and displays.</li><li style="margin-bottom:2px">Sport Mode: maximum power output, 4WD preferred (AWD variants). More responsive throttle and steering.</li><li style="margin-bottom:2px">Custom/Personalised Mode*: allows individual tuning of power, braking, steering, suspension and other systems. (* check your variant)</li></ul><br><div>WARNING per the manual: Switching the driving mode when the vehicle is in motion can divert the driver's attention from road conditions and may result in accidents. [Manual-sourced]</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">How do I adjust energy recovery (regen braking) levels?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Per the IM manual — access via Settings > Driving > ERS:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">OFF: no energy recovery during coasting — car coasts freely like a petrol car.</li><li style="margin-bottom:2px">LOW: light regeneration, longer coast distance.</li><li style="margin-bottom:2px">STANDARD: stronger regeneration, shorter coast distance — closest to one-pedal feel (but does NOT bring the car to a complete stop).</li></ul><br><div>Note: regen does not activate when the battery is fully charged or if the battery temperature is too high or low. Coasting in N gear disables regen. The manual recommends against coasting in N gear while driving.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What is Auto Hold and when should I use it?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Per the IM6 manual — Auto Hold is useful in SG's frequent stop-start traffic and on slopes at traffic lights:</div><br><div style="margin-top:6px"><strong>HOW IT WORKS:</strong></div><div>Auto Hold has three states:</div><div style="margin-bottom:2px">1. Standby: With the driver's seat belt fastened, the driver's door closed, and the vehicle in READY state — press the Auto Hold button on the central screen to enter Standby state.</div><div style="margin-bottom:2px">2. Operating (Parking state): When moving forward, press the brake pedal to stop the vehicle, then firmly press the brake pedal again to switch Auto Hold from Standby to Parking state. The car stays stationary and you can remove your foot from the pedal. When you press the accelerator to move off, Auto Hold releases automatically (based on slope and gear selected).</div><div style="margin-bottom:2px">3. To disable: Press the Auto Hold button on the central screen again.</div><br><div>Note: If the vehicle is stopped by firmly pressing the brake pedal, Auto Hold will directly enter Parking state.</div><br><div>AUTO HOLD EXITS the parking state when:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">The EPB switch is pressed with the brake pedal pressed.</li><li style="margin-bottom:2px">The seat belt is released.</li><li style="margin-bottom:2px">The power system is turned off.</li><li style="margin-bottom:2px">The vehicle remains static for a length of time.</li><li style="margin-bottom:2px">The Auto Hold switch is touched again.</li></ul><div>IMPORTANT: When Auto Hold exits due to any of the above, the EPB is automatically applied. [Manual-sourced]</div><br><div>CAR WASH WARNING per the manual: The Auto Hold MUST be switched off before entering an automatic car wash — otherwise the EPB may suddenly apply and cause vehicle damage. [Manual-sourced]</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">How does the driver seat memory function work?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>The IM6 manual states up to 5 seat memory positions can be saved via the Driver Seat Adjustment interface on the centre screen. However, SG owners report seeing only 2–3 memory position buttons in their cars. This discrepancy between the manual and actual UI may be due to a variant or software difference. Awaiting EK confirmation on how many positions are available on SG-market vehicles.</div><br><div>How to use (per the manual):</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">To save: long-press the corresponding position button on the centre screen to save your current seat position.</li><li style="margin-bottom:2px">To recall: tap (short press) the corresponding position button.</li></ul><br><div>WARNING per the manual: Do NOT invoke seat memory positions while driving — unexpected seat movement creates accident risk. Check the seat path is clear of objects before invoking. [Manual-sourced]</div><br><div>Driver Welcome Function: when enabled (Settings > Driver Convenience) per the manual:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Exiting: When you park in P gear, AND release the seat belt, AND open the door — the seat automatically slides back to give you more space to get out. All three conditions must be met. [Manual-sourced]</li><li style="margin-bottom:2px">Entering: Unlock the vehicle, open the door, get in. When the door is closed OR the brake pedal is pressed (whichever comes first), the seat automatically moves forward to your last memorised position. [Manual-sourced]</li></ul>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What is Crab Mode and how do I use it?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span><span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#FAC775;color:#633806">* Check your variant</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Crab Mode uses the rear-wheel steering system so that the rear wheels turn in the SAME direction as the front wheels (instead of opposite), allowing the car to move diagonally at low speeds. Useful for precise positioning in tight parking situations.</div><br><div>The rear-wheel steering system is always active (it automatically adjusts at different speeds for better manoeuvrability at low speed and stability at high speed). Crab mode is a specific setting where this behaviour is exaggerated for lateral movement.</div>
+            </div>
+          </div></div>
+        </div>
+        <div id="s_keys" style="margin-bottom:10px">
+          <div id="hdr-s_keys" onclick="togSec('s_keys')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#f2f2f2;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#888;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">Keys, access &amp; security</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">5 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s_keys" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What key and access options come with my IM?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Three access methods are provided at delivery:</div><br><div style="margin-bottom:2px">1. 1 number of Smart key fob (remote key): press the lock/unlock button to lock/unlock. Range: keep within 1.5 m of the door handle for keyless entry.</div><div style="margin-bottom:2px">2. 1 number of NFC card: tap on the NFC swiping area on the B-pillar exterior trim (driver's side) and hold for several seconds to lock or unlock.</div><div style="margin-bottom:2px">3. Mechanical key: a spare mechanical key is embedded in the smart key fob. Pull open the driver door handle and insert into the key hole — anti-clockwise to lock, clockwise to unlock.</div><div style="margin-bottom:2px">4. IM app - uses a digital key to lock/unlock the car</div><br><div>Note per the manual: if you unlock with the NFC card and exceed the valid start time without placing the card on the NFC sensing area in the centre console, the car cannot be started, place the card on the centre console NFC area to start.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Can I add a secondary driver with their own app and key access?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#F4C0D1;color:#72243E">Wishlist</span><span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Wishlist item (W-002 / IM-018) — full independent secondary driver app access is currently limited. EK has been asked to assess app permission improvements. Status: pending principal response.</div><br><div>Current options:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Share your IM app login with a trusted secondary driver using shared digital key (gives full access to all vehicle controls — use with caution).</li><li style="margin-bottom:2px">The NFC card can be used by any person who carries it; not locked to an account.</li></ul><br><div>A dedicated secondary-driver account feature with limited permissions has been submitted as a feature request.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Will Apple Watch / phone digital wallet (NFC key) be supported in future?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#F4C0D1;color:#72243E">Wishlist</span><span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Wishlist item (W-003 / IM-019) — not currently available. Owners have requested phone wallet (Apple Wallet / Google Wallet) and Apple Watch unlock capability, similar to that offered by other premium EVs in SG. EK has been asked to assess feasibility for the SG market. Status: pending principal response.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">I've lost / damaged my smart key. How do I get a replacement?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span><span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>If the smart key is lost or damaged, contact EK immediately. A replacement key requires programming by the Authorised Repairer and cannot be provided immediately — plan ahead.</div><br><div>If you carry only one key and lose it:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Contact EK to arrange access and key programming.</li><li style="margin-bottom:2px">As interim, the NFC card can be used for entry and starting (place on centre console NFC area).</li><li style="margin-bottom:2px">A second programmed spare smart key fob can be purchased proactively at cost</li></ul>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">My NFC card doesn't work reliably, especially in humid / wet conditions.</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Global IM owner forums report that NFC card performance can be unreliable in very cold or wet conditions. In SG's climate, humidity is more likely to affect the card than cold. If the NFC card fails:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Try a different angle or position on the B-pillar swiping area.</li><li style="margin-bottom:2px">Dry the card and the swiping area if wet.</li><li style="margin-bottom:2px">If the card consistently fails across multiple attempts in normal conditions, contact EK; it may require replacement.</li></ul>
+            </div>
+          </div></div>
+        </div>
+        <div id="s6" style="margin-bottom:10px">
+          <div id="hdr-s6" onclick="togSec('s6')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#FBEAF0;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#db2777;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">One Touch Park — parking guide &amp; checklist</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">7 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s6" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What are all the One Touch parking features on my IM?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>There are four distinct One Touch intelligent parking features, all accessible via the One Touch iAD menu on the centre screen:</div><br><div style="margin-bottom:2px">1. One Touch Park (APA) - automatic parking-in</div><div style="margin-bottom:2px">2. One Touch Escape - automatic parking-out</div><div style="margin-bottom:2px">3. One Touch Side (Curbside) - lateral sideways nudge into position</div><div style="margin-bottom:2px">4. One Touch Reverse (Tracking) - auto-reverse along remembered path</div><br><div>All four are also accessible via the HOME interface and the 360 surround-view interface. In all four functions the system controls steering and speed; the driver remains responsible for safety and must be ready to brake immediately at all times.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">One Touch Park (parking-in) — what it supports and how to use it<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div style="margin-top:6px"><strong>WHAT IT SUPPORTS:</strong></div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Perpendicular and parallel parking slots with clear marking lines.</li><li style="margin-bottom:2px">Unoccupied spaces beside any car (spatial parking without marking lines).</li><li style="margin-bottom:2px">With good lighting and clear marking lines, slot detection works without reference objects on both sides.</li></ul><br><div>ACTIVATION (drive below 20 km/h):</div><div style="margin-bottom:2px">1. Enable via 'One Touch Parking' on the HOME interface, OR engage R gear (if Quick One Touch Parking = On in APA Settings), OR tap 'Park' on the 360 or iAD interface.</div><div style="margin-bottom:2px">2. System scans for a slot. When found, brake to stop safely, select the slot on screen and confirm.</div><div style="margin-bottom:2px">3. After tapping 'Start Parking' — do NOT release the brake pedal until the system prompts 'Please Release Brake'.</div><div style="margin-bottom:2px">4. System completes parking and prompts 'Successful Parking'.</div><br><div>Note: If the vehicle travels out of range after a slot is found, the system will scan again.</div><br><div style="margin-top:6px"><strong>INTERRUPTION AND RESUME:</strong></div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Touching the steering wheel or changing gear: system exits immediately.</li><li style="margin-bottom:2px">Opening a door mid-park: system pauses -close the door and resume via the centre screen.</li><li style="margin-bottom:2px">Braking during the manoeuvre: system pauses - release the brake and resume via the centre screen.</li><li style="margin-bottom:2px">If speed exceeds 25 km/h during search: system returns to APA main interface.</li></ul>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Silent Search — how the car finds a parking space automatically while you drive<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Silent Search runs passively in the background with no input needed. When driving in D gear below 15 km/h in a car park or roadside area, the system silently scans for nearby spaces. A parking space icon appears on the instrument screen when a suitable space is found.</div><br><div>Note: The icon only appears when the space meets the full APA dimensional and positional requirements. Not every space you see will trigger the icon.</div><br><div>IN R GEAR: Silent Search also works when reversing below 8 km/h, but in R gear it only detects perpendicular spaces (with or without marking lines) — not parallel spaces.</div><br><div>LIMITATIONS per the manual:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Does not work on ramps.</li><li style="margin-bottom:2px">Exits automatically if speed exceeds 15 km/h.</li><li style="margin-bottom:2px">Cannot run simultaneously with other intelligent driving assistance functions.</li><li style="margin-bottom:2px">Opening any door, bonnet, or boot causes it to exit.</li><li style="margin-bottom:2px">Dark environments or adverse weather significantly reduce detection capability.</li></ul>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">One Touch Escape (parking-out) - how to use it</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>One Touch Escape automatically steers the vehicle out of a parking space to the exit channel. Available after APA parking-in OR after manual parking, provided the vehicle has not moved from its parked position.</div><br><div style="margin-top:6px"><strong>SPACE REQUIREMENTS:</strong></div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Parallel space: at least 1.1 m of clear space in front and behind the vehicle.</li><li style="margin-bottom:2px">Perpendicular space: at least 0.6 m of clear space on both sides of the vehicle.</li><li style="margin-bottom:2px">For manually parked vehicles: the rear of the vehicle must have passed through the adjacent parking space during entry for Escape to work.</li></ul><br><div style="margin-top:6px"><strong>HOW TO USE:</strong></div><div style="margin-bottom:2px">1. Enable via 'Pull Out' on the 360 interface, HOME interface, or iAD menu — OR say 'I want to park out' via voice activation.</div><div style="margin-bottom:2px">2. System detects and displays available exit directions (front-left, front-right). Select your preferred direction.</div><div style="margin-bottom:2px">3. System displays the path range — confirm there are no obstacles in that path.</div><div style="margin-bottom:2px">4. System controls steering and speed to exit. Monitor surroundings at all times.</div><div style="margin-bottom:2px">5. On completion, vehicle automatically engages P gear and prompts 'Parking Out Completed'.</div><br><div style="margin-top:6px"><strong>PAUSE AND RESUME:</strong></div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Tap [Pause], brake, or open a door — system pauses. Tap [Continue] to resume.</li><li style="margin-bottom:2px">System exits permanently if paused more than 1 minute due to obstacles, or if the driver touches the steering wheel or changes gear. answer here.</li></ul>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">One Touch Side (Curbside) - nudging the car sideways into position</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>One Touch Side (labelled 'Curbside' on screen) nudges the car sideways in 15 cm steps toward a kerb or wall. Useful for precise positioning in tight SG car parks after you've parked, without needing to reverse and re-park.</div><br><div style="margin-top:6px"><strong>HOW IT WORKS:</strong></div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Vehicle must be stationary in P gear or Auto Hold mode before enabling.</li><li style="margin-bottom:2px">Moves the vehicle laterally left or right in 15 cm increments per activation.</li><li style="margin-bottom:2px">If a reference object (kerb or wall) is present and the car is roughly parallel to it (within about 18 degrees at the rear or 6 degrees at the front), the system aligns the vehicle to it.</li><li style="margin-bottom:2px">If no reference object is detected, it simply shifts the vehicle 15 cm in the chosen direction.</li></ul><br><div>RECOMMENDED STARTING CONDITIONS per the manual:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">At least 20 cm from a kerb; at least 40 cm from a wall.</li><li style="margin-bottom:2px">At least 1.5 m total clear space (front gap + rear gap combined).</li><li style="margin-bottom:2px">Body should be as parallel to the reference object as possible before starting.</li></ul><br><div>ENABLE: Tap 'Curbside' on the 360 interface, HOME interface, or iAD menu.</div><br><div>Do NOT use if a ball hitch, bike rack, or trailer is attached. Not recommended on slopes above 5 degrees, potholes, or in poor lighting or adverse weather.Enter answer here.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">One Touch Reverse (Tracking) - auto-reversing back out of a tight spot</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>One Touch Reverse (labelled 'Reverse' or 'Tracking' on screen) silently records your recent driving path and automatically reverses the car back along that path. Useful when you've driven into a dead-end, narrow lane, or difficult situation and need to reverse out the way you came.</div><br><div style="margin-top:6px"><strong>HOW IT WORKS:</strong></div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">The system silently memorises your last driven path up to 50 m while driving at 0–25 km/h — no input required. It records continuously in the background.</li><li style="margin-bottom:2px">When you need to reverse out, enable the function and it automatically steers and controls speed to reverse along the memorised path.</li></ul><br><div>REQUIREMENTS per the manual:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Minimum 1 m of valid memorised path must have been recorded.</li><li style="margin-bottom:2px">Road width must be greater than 3 m — function exits if road becomes narrower.</li></ul><br><div style="margin-top:6px"><strong>IMPORTANT LIMITATIONS:</strong></div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Path recording pauses when another intelligent driving assistance system is active.</li><li style="margin-bottom:2px">There will be some deviation from the exact original path — monitor surroundings throughout.</li><li style="margin-bottom:2px">Sensors cannot identify hanging obstacles, barbed wire, guardrails, or fences.</li><li style="margin-bottom:2px">Obstacles within 30 cm of the body are in the sensor blind spot — do not enable if obstacles are this close.</li><li style="margin-bottom:2px">Does not work in dark environments, adverse weather, or on roads with cliffs or height differences.</li></ul><br><div>HOW TO ENABLE: Tap 'Reverse' on the 360 interface, HOME interface, or iAD menu. Stop the vehicle, keep braking, then tap 'Reverse' to start. Remaining tracking distance is shown in real time on screen.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Pre-use safety checklist - applies to ALL One Touch parking features</span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Vehicle & environment prep (all four functions):</div><br><div style="margin-bottom:2px">1. No attachments: Do not use any One Touch function if a ball hitch, bike rack, or trailer is attached to the tow hitch. [Manual-verified]</div><div style="margin-bottom:2px">2. Conditions: Good lighting, suitable weather, flat ground — no steep slopes.</div><div style="margin-bottom:2px">3. Unfold mirrors: Exterior mirrors must be unfolded so side cameras function correctly.</div><div style="margin-bottom:2px">4. Clean cameras: Front, rear, and side cameras must be clean and unobstructed.</div><div style="margin-bottom:2px">5. All doors, bonnet, and boot must be closed before starting.</div><br><div>PHASE 2 — For One Touch Park specifically:</div><div style="margin-bottom:2px">6. Drive close to parking spaces to help the system scan effectively.</div><div style="margin-bottom:2px">7. Verify the lines: Standard perpendicular or parallel slots only. AVOID: U-shaped lines, dot lines, diagonal/irregular lines, grassland, colour-coded slots, mechanical/automated garage systems.</div><div style="margin-bottom:2px">8. Check the width: Avoid spots narrower than approximately 2.75 m.</div><div style="margin-bottom:2px">9. Confirm legality: System CANNOT determine if a space is legal. You must confirm before starting.</div><br><div>PHASE 3 — During any manoeuvre:</div><div style="margin-bottom:2px">10. Stay ready to brake at all times — driver remains fully responsible.</div><div style="margin-bottom:2px">11. Watch for sensor blind spots: low curbs, thin poles, overhanging branches, obstacles within 30 cm of the body.</div><div style="margin-bottom:2px">12. Roof rack warning: Watch for overhead obstructions such as A/C ventilation pipes that sensors cannot detect.</div><div style="margin-bottom:2px">13. Use parking radar audio feedback to judge distance to obstacles.</div><div style="margin-bottom:2px">14. Take over immediately if a pedestrian, cyclist, or vehicle appears suddenly — the system may not brake in time.</div><div style="margin-bottom:2px">15. Final adjustment: System may complete the manoeuvre earlier than expected — adjust the final position manually if needed.</div>
+            </div>
+          </div></div>
+        </div>
+        <div id="s_maint" style="margin-bottom:10px">
+          <div id="hdr-s_maint" onclick="togSec('s_maint')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#f2f2f2;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#888;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">Long-term care, storage &amp; emergencies</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">5 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s_maint" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What is the running-in advice for a new IM?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Per the IM manual:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">For the first 1,500 km: avoid rapid acceleration or emergency braking to allow brake pads and tyres to bed in properly. [Manual-sourced]</li><li style="margin-bottom:2px">During running-in, drive smoothly and progressively - this helps long-term brake and tyre performance.</li></ul><br><div>Note: EVs have fewer moving parts to bed in compared to ICE vehicles, but the brakes and tyres still benefit from a gradual run-in period.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">How do I prepare my IM if parking it for a long period (holiday, etc.)?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Per the IM manual:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Charge the high-voltage battery to at least 50% SOC before leaving.</li><li style="margin-bottom:2px">Charge at least once every 3 months — keep above 50% on the instrument after each charge.</li><li style="margin-bottom:2px">NEVER leave the car for more than 7 days with a critically low battery (no valid driving range shown on the instrument); this can permanently damage the battery cells.</li><li style="margin-bottom:2px">If the 12V auxiliary battery will be unused for more than 1 month, the manual recommends removing the negative cable from the 12V battery to prevent drain.</li><li style="margin-bottom:2px">After a long storage period: perform a complete equalisation charge (slow AC charge to 100%) before returning to regular driving.</li></ul>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">My 12V battery is flat and the car won't start. How do I jump-start it?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Per the IM6 manual (jump-start the 12V battery only):</div><br><div>SAFETY WARNINGS per the manual:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">NEVER start an IM by pushing or towing.</li><li style="margin-bottom:2px">NEVER jump-start with a fuel vehicle's battery — may damage the IM Low Voltage Battery Management system (LVBM). [Manual-sourced]</li><li style="margin-bottom:2px">Jumper cables must be APPROVED FOR USE with 12V car batteries — not just any cables. [Manual-sourced]</li><li style="margin-bottom:2px">Ensure there is NO NAKED FIRE in the front compartment. [Manual-sourced]</li><li style="margin-bottom:2px">Ensure jumper cables are securely connected and do NOT touch each other or other moving parts — otherwise sparking could lead to fire or explosion. [Manual-sourced]</li></ul><br><div>Procedure:</div><div style="margin-bottom:2px">1. Ensure both vehicles are powered off and all electrics turned off.</div><div style="margin-bottom:2px">2. Both batteries must be 12V — same rated voltage. Use jumper cables approved for 12V batteries.</div><div style="margin-bottom:2px">3. Connect the RED jumper cable: positive (+) of donor battery to positive (+) of disabled vehicle. If the tailgate cannot be opened, use the positive jumper point in the front compartment fuse box.</div><div style="margin-bottom:2px">4. Connect the BLACK jumper cable: negative (-) of donor battery to a good unpainted earth point on the disabled vehicle (crossbeam or similar — NOT directly to the battery, and keep it well away from the battery and bypass the brake lines). [Manual-sourced]</div><div style="margin-bottom:2px">5. Start the donor vehicle and run for a few minutes.</div><div style="margin-bottom:2px">6. Attempt to start the disabled IM. If the disabled vehicle will not start after several attempts, it may need to be repaired — contact EK for an overhaul.</div><div style="margin-bottom:2px">7. After both vehicles start, allow the disabled vehicle to run for more than 30 minutes BEFORE turning off the donor vehicle and disconnecting the cables. It is recommended to turn off comfort appliances such as lights and air conditioning after starting, and keep the vehicle running for 1 to 2 hours to restore the battery power fully. [Manual-sourced]</div><div style="margin-bottom:2px">8. Disconnect in EXACT REVERSE order: BLACK from earth point on disabled vehicle FIRST, then rest.</div><br><div>Do NOT switch on any electrics on the disabled vehicle before removing the jumper cables. [Manual-sourced]</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">My IM broke down on the road. Can I be towed?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>CRITICAL: DO NOT tow an IM with all four wheels on the ground. The electric drive unit will be damaged. [Manual-sourced]</div><br><div>Only these methods are permitted per the manual:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Suspended towing (flatbed / vehicle transporter): preferred method. All wheels off the ground.</li><li style="margin-bottom:2px">Auxiliary wheels: if suspended towing is not available, auxiliary wheels must keep the drive wheels off the ground.</li><li style="margin-bottom:2px">Pushing: only permissible at speeds below 5 km/h for a maximum of 3 minutes — e.g., to clear a junction. [Manual-sourced]</li></ul><br><div>TOWING EYES: The car has two towing EYES (sockets) — one at the front and one at the rear of the vehicle. There is ONE tow hook stored in the trunk that screws into these sockets as needed. To fit: remove the small cover from the bumper, then screw the tow hook fully into the threaded hole in the bumper beam. [Manual-sourced]</div><br><div>IMPORTANT per the manual: These towing eyes are for towing YOUR OWN IM onto a transporter ONLY — they are NOT designed for towing other vehicles. A hard tow rod is recommended; a soft rope may be used if a hard rod is not available. [Manual-sourced]</div><br><div>When being towed: insert the driver's seat belt into the buckle, set the shift lever to N, and release the EPB. Turn on hazard warning lamps. No passengers should remain in the vehicle being towed. [Manual-sourced]</div><br><div>Contact EK or your roadside assistance immediately to arrange flatbed recovery.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Can I take my IM through an automatic car wash?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#B5D4F4;color:#0C447C">Manual-sourced</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>You can use automatic car wash equipment, BUT you MUST switch off Auto Hold before entering.</div><br><div>WARNING: if Auto Hold is active when entering a car wash, the Electronic Parking Brake (EPB) may suddenly apply, causing potential vehicle damage and safety hazard.</div><br><div>Additional tips from the manual:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">After a car wash, check that camera lenses (front, side, rear) are clean and unobstructed before using parking assist or ADAS features.</li><li style="margin-bottom:2px">High-pressure washers should not be directed at camera lenses, sensors, or seal areas.</li></ul>
+            </div>
+          </div></div>
+        </div>
+        <div id="s7" style="margin-bottom:10px">
+          <div id="hdr-s7" onclick="togSec('s7')" style="display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:8px;cursor:pointer;background:#EAF3DE;border:0.5px solid rgba(0,0,0,.06);user-select:none">
+            <span style="width:10px;height:10px;border-radius:50%;background:#16a34a;flex-shrink:0;display:inline-block"></span>
+            <span style="font-size:13px;font-weight:600;color:#111;flex:1">Owner wishlist &amp; feature requests</span>
+            <span style="font-size:10px;font-weight:600;padding:1px 7px;border-radius:10px;background:rgba(0,0,0,.08);color:#555">4 FAQs</span>
+            <span class="sc" style="font-size:13px;color:#777;display:inline-block;transition:transform .2s">▾</span>
+          </div>
+          <div id="list-s7" style="display:none;margin-top:6px">
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">What features are SG owners actively requesting from IM/EK?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#F4C0D1;color:#72243E">Wishlist</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Based on the IMOCSG owner repository and global forums, current top requests submitted to EK:</div><br><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">Secondary driver account with independent app access (W-002)</li><li style="margin-bottom:2px">Apple Watch / phone wallet digital key (W-003)</li><li style="margin-bottom:2px">Second programmed key fob option (W-004)</li><li style="margin-bottom:2px">Extended warranty purchase option (W-005)</li><li style="margin-bottom:2px">Speed limit display on driver dashboard (W-007)</li><li style="margin-bottom:2px">Battery SOC percentage on driver dashboard (W-008)</li><li style="margin-bottom:2px">Combined range + SOC % display e.g. '350 km / 80%' (W-009)</li><li style="margin-bottom:2px">Clearer range calculation methodology explanation (DFRE / WLTP) (W-010)</li><li style="margin-bottom:2px">Pet Mode — leave A/C on with car locked (global forum request, not yet available)</li><li style="margin-bottom:2px">One-pedal driving mode (global forum request, not yet available)</li><li style="margin-bottom:2px">Simple fixed-speed cruise control separate from full ACC/Pilot (IM-002)</li><li style="margin-bottom:2px">Auto dip headlights improvement (global forum request)</li></ul><br><div>To add a new request: post in the IMOCSG WhatsApp group or in the Owner Input tab of the shared repository.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Can I see the battery SOC percentage on the driver dashboard?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#F4C0D1;color:#72243E">Wishlist</span><span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Not prominently displayed by default — this is one of the most consistently raised requests across SG and global IM owner communities (W-008 / IM-024). Currently SOC is shown as range in km, not percentage, on the main instrument.</div><br><div>Owners have also requested a combined display showing both range and percentage e.g. '350 km / 80%' (W-009 / IM-025). Both have been submitted to EK for assessment as potential OTA UI improvements. Status: pending.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Why does my displayed range vary so much? What is DFRE / WLTP/  CLTC?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#F4C0D1;color:#72243E">Wishlist</span><span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>The range figure displayed is a dynamic estimate that changes based on recent driving behaviour, A/C load, speed, and temperature — not a fixed number (W-010 / IM-026).</div><br><div>Rating standards explained:</div><ul style="padding-left:16px;margin:4px 0"><li style="margin-bottom:2px">WLTP (Worldwide Harmonised Light Vehicle Test Procedure): closer to real-world but still measured in ideal conditions.</li><li style="margin-bottom:2px">DFRE (Dynamic Fuel/Driving Range Estimate) is your car's real-time prediction based on immediate driving conditions</li><li style="margin-bottom:2px">CLTC (Chinese Light-duty Vehicle Test Cycle): the test cycle used for China-market IM specs. More optimistic than real-world SG driving — typically plan for 75–85% of CLTC rating.</li></ul><br><div>In SG conditions, the main range reducers are: constant A/C (15–20% reduction), sustained highway speed, full passenger load, and accessories. DFRE is generally much more reliable for day-to-day travel, as it actively penalizes energy-heavy habits like highway speeds or glass roof heat-soak. WLTP will usually over-predict your range.</div><br><div>Note: IM App only displays WLTP figures currently even though car settings may be set to DFRE</div><br><div>Owners have asked EK to clarify the specific range calculation method used and to add a plain-language explanation in the app. Status: pending.</div>
+            </div>
+          </div>
+          <div style="border:0.5px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden;margin-bottom:6px">
+            <div onclick="togQ(this)" style="display:flex;align-items:flex-start;gap:8px;padding:10px 12px;cursor:pointer;background:#fafafa">
+              <span style="font-size:13px;font-weight:600;color:#111;flex:1;line-height:1.5">Can the dashboard show the current road speed limit?<span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#F4C0D1;color:#72243E">Wishlist</span><span style="display:inline-block;font-size:9px;font-weight:600;padding:1px 7px;border-radius:9px;vertical-align:middle;margin-left:4px;background:#CECBF6;color:#3C3489">Awaiting EK</span></span>
+              <span class="chev" style="font-size:13px;color:#999;flex-shrink:0;margin-top:2px;display:inline-block;transition:transform .2s">▾</span>
+            </div>
+            <div class="ans" style="display:none;padding:10px 12px 12px;font-size:13px;color:#444;line-height:1.7;border-top:0.5px solid #eee">
+              <div>Wishlist item W-007 / IM-023 - A driver dashboard display of the current road speed limit based on map data or sign recognition. EK has been asked to assess OTA feasibility. Status: pending assessment from EK/Principal.</div>
+            </div>
+          </div></div>
+        </div>
+
+  <div style="font-size:11px;color:#999;padding:10px 14px;border-left:3px solid #e0e0e0;margin-top:1.5rem">
+    Sources: EK Mobility SG dealer agreement &nbsp;·&nbsp; IM6 User Manual &nbsp;·&nbsp; IMOCSG Issue Log. This FAQ is community-maintained and does not replace official EK or IM Motors documentation. All items marked "Awaiting EK" should be verified directly with EK before acting on them.
+  </div>
+  <div style="margin-top:1rem;text-align:center;font-size:11px;color:#bbb">IM Owners Collective SG &nbsp;·&nbsp; FAQ Hub &nbsp;·&nbsp; 27 June 2026</div>
+</div>
+<script>
+function togSec(id){
+  var l=document.getElementById('list-'+id),c=document.querySelector('#hdr-'+id+' .sc'),o=l.style.display==='none';
+  l.style.display=o?'block':'none'; if(c)c.classList.toggle('open',o);
+}
+function openSec(id){
+  var l=document.getElementById('list-'+id),c=document.querySelector('#hdr-'+id+' .sc');
+  l.style.display='block'; if(c)c.classList.add('open');
+  document.getElementById(id).scrollIntoView({behavior:'smooth',block:'start'});
+}
+function togQ(el){
+  var p=el.parentNode,a=p.querySelector('.ans'),c=el.querySelector('.chev'),o=a.style.display==='none';
+  a.style.display=o?'block':'none'; if(c)c.classList.toggle('open',o);
+}
+</script>
+</body>
+</html>
